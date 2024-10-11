@@ -8,9 +8,8 @@ public class Exercicio01 {
 		Scanner teclado = new Scanner(System.in);
 		
 		// Variaveis
-		double altura;
-		double base;
-		double area;
+		double altura, base, area; 
+		
 		
 		// Entrada dos Valores 
 		System.out.println("PROGRAMA PARA CALCULAR A AREA DE UM RETANGULO");

@@ -4,11 +4,13 @@ public class Exercicio03 {
 	
 	public static void main(String[] args) {
 		
+		// Comando de entrada
 		Scanner teclado = new Scanner(System.in);
 		
-		double valor;
-		double resto;
+		// Variaveis
+		double valor, resto;
 		
+		// entrada da variavel
 		System.out.println("Digite um valor: ");
 		
 		valor = teclado.nextDouble();
@@ -18,8 +20,10 @@ public class Exercicio03 {
 		System.out.println("O valor ao quadrado é: " + (valor * valor));
 		System.out.println("O valor ao cubo é: " + (valor * valor * valor));
 		
+		// variavel resto
 		resto = valor % 2;
 		
+		//Condição para valor par ou impar
 		if (resto == 0) {
 			
 			System.out.println("O valor digitado é par.");}
