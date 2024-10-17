@@ -16,10 +16,13 @@ public class Exercicio05 {
 		
 		// entradas de variaveis
 		System.out.println("PROGRAMA PARA DEFINIR A MÉDIA DO ALUNO");
+		
 		System.out.println("Escreva a primeira nota: ");
 		nota01 = teclado.nextDouble();
+		
 		System.out.println("Escreva a Segunda nota: ");
 		nota02 = teclado.nextDouble();
+		
 		System.out.println("Escreva a terceira nota: ");
 		nota03 = teclado.nextDouble();
 		
